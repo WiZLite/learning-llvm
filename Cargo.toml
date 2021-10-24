@@ -1,0 +1,11 @@
+[package]
+
+authors = ["Mikuto Matsuo <black_rais0n.detre@icloud.com>"]
+name = "learning-llvmm"
+version = "0.0.1"
+
+[dependencies]
+inkwell = {git = "https://github.com/TheDan64/inkwell", branch = "master", features = ["llvm10-0"]}
+swc_common = {version = "0.13.0", features = ["tty-emitter"]}
+swc_ecma_ast = "0.54.0"
+swc_ecma_parser = "0.73.0"
